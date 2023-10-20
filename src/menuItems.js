@@ -9,7 +9,7 @@ export const menuItems = [
     submenu: [
       {
         title: '인삿말',
-        url: '/introduction',
+        url: '/about',
       },
       {
         title: '예배안내',
@@ -26,7 +26,7 @@ export const menuItems = [
     ],
   },
   {
-    title: 'DaumTV', // Upload Sermon, worships, any kind of videos
+    title: '다음 TV', // Upload Sermon, worships, any kind of videos
     url: '/DaumTV',
     submenu: [
       {
@@ -38,7 +38,7 @@ export const menuItems = [
         url: '/worship',
       },
       {
-        title: '영상',
+        title: '특별영상',
         url: '/videos',
       },
       {
@@ -49,10 +49,14 @@ export const menuItems = [
         title: '예배실황',
         url: '/broadcasting',
       },
+      {
+        title: '보도자료',
+        url: '/news',
+      },
     ],
   },
   {
-    title: '사역', // About ministry or volunteer
+    title: '교회사역', // About ministry or volunteer
     url: '/Ministry',
     submenu: [
       {
@@ -60,13 +64,17 @@ export const menuItems = [
         url: '/mission-trip',
       },
       {
-        title: '주일학교',
+        title: '교회학교',
         url: '/children',
+      },
+      {
+        title: '비전트립',
+        url: '/vision-trip',
       },
     ],
   },
   {
-    title: '공동체', // Information about church member
+    title: '공 동 체', // Information about church member
     url: '/Community',
     submenu: [
       {
