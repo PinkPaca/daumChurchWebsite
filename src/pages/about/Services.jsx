@@ -2,6 +2,7 @@ import React from 'react';
 import SubNav from '../../components/SubNav';
 import About from '../About';
 import { menuItems } from '../../menuItems';
+import Footer from '../../components/Footer';
 
 function Services() {
   return (
@@ -51,6 +52,7 @@ function Services() {
           </tbody>
         </table>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -253,3 +253,29 @@
   }
 }
 
+.footer{
+  background-color: #a5a9af;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 72px;
+  margin-top: 64px;
+
+  .contract{
+    padding: 8px;
+  }
+
+  a{
+    color:black;
+    padding: 4px;
+  }
+
+  .contact{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+    width: 40%;
+    margin: auto;
+  }
+}
+
