@@ -6,7 +6,8 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ErrorPage from './pages/Error';
-import About from './pages/About';
+import Greeting from './pages/about/Greeting';
+import Services from './pages/about/Services';
 
 const router = createBrowserRouter([
   {
@@ -15,8 +16,12 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: '/about',
-    element: <About />,
+    path: '/about/greeting',
+    element: <Greeting />,
+  },
+  {
+    path: '/about/services',
+    element: <Services />,
   },
 ]);
 

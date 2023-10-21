@@ -1,8 +1,10 @@
 import React from 'react';
 import Navbar from '../components/Header/Navbar';
-import about_nav from '../components/about/about_nav';
+import SubNav from '../components/SubNav.jsx';
+import { menuItems } from '../menuItems';
 
 function About() {
+  console.log(menuItems[1].submenu);
   return (
     <div className="about">
       <Navbar />
@@ -11,9 +13,6 @@ function About() {
         src={require('../assets/cross-img.jpeg')}
         alt="십자가이미지"
       />
-      <div className="content">
-        <about_nav />
-      </div>
     </div>
   );
 }

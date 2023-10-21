@@ -5,85 +5,85 @@ export const menuItems = [
   },
   {
     title: '교회소개', // About
-    url: '/About',
+    url: '/about/greeting',
     submenu: [
       {
-        title: '인삿말',
-        url: '/about',
+        title: '인사말',
+        url: '/about/greeting',
       },
       {
         title: '예배안내',
-        url: '/services',
+        url: '/about/services',
       },
       {
         title: '교회연혁',
-        url: '/history',
+        url: '/about/history',
       },
       {
         title: '오시는길',
-        url: '/map',
+        url: '/about/map',
       },
     ],
   },
   {
     title: '다음 TV', // Upload Sermon, worships, any kind of videos
-    url: '/DaumTV',
+    url: '/daumTV',
     submenu: [
       {
         title: '설교',
-        url: '/sermon',
+        url: '/daumTV/sermon',
       },
       {
         title: '찬양',
-        url: '/worship',
+        url: '/daumTV/worship',
       },
       {
         title: '특별영상',
-        url: '/videos',
+        url: '/daumTV/videos',
       },
       {
         title: '앨범',
-        url: '/album',
+        url: '/daumTV/album',
       },
       {
         title: '예배실황',
-        url: '/broadcasting',
+        url: '/daumTV/broadcasting',
       },
       {
         title: '보도자료',
-        url: '/news',
+        url: '/daumTV/news',
       },
     ],
   },
   {
     title: '교회사역', // About ministry or volunteer
-    url: '/Ministry',
+    url: '/ministry',
     submenu: [
       {
         title: '단기선교',
-        url: '/mission-trip',
+        url: '/ministry/mission-trip',
       },
       {
         title: '교회학교',
-        url: '/children',
+        url: '/ministry/children',
       },
       {
         title: '비전트립',
-        url: '/vision-trip',
+        url: '/ministry/vision-trip',
       },
     ],
   },
   {
     title: '공 동 체', // Information about church member
-    url: '/Community',
+    url: '/community',
     submenu: [
       {
         title: '함께하기',
-        url: '/join',
+        url: '/community/join',
       },
       {
         title: '상담',
-        url: '/counsel',
+        url: '/community/counsel',
       },
     ],
   },
