@@ -215,7 +215,7 @@
     }
 
     .current {
-      background-color: #a5a9af;
+      background-color: #d1d3d7;
     }
   }
 }
@@ -249,6 +249,14 @@
         line-height: 32px;
         border-bottom: 0.5px solid grey;
       }
+    }
+  }
+}
+
+.history{
+  .content{
+    .history-timeline{
+      width: 100%;
     }
   }
 }

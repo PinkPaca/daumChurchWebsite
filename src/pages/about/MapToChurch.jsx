@@ -1,24 +1,23 @@
 import React from 'react';
 import SubNav from '../../components/SubNav';
-import About from '../About';
 import { menuItems } from '../../menuItems';
+import About from '../About';
 import Footer from '../../components/Footer';
 
-function Greeting() {
+function MapToChurch() {
   return (
-    <div className="greeting">
+    <div className="map">
       <About />
       <div className="content">
         <SubNav
           title={menuItems[1].title}
           subMenus={menuItems[1].submenu}
-          current={0}
+          current={3}
         />
-        <img src={require('../../assets/greeting_card.png')} alt="인삿말" />
       </div>
       <Footer />
     </div>
   );
 }
 
-export default Greeting;
+export default MapToChurch;

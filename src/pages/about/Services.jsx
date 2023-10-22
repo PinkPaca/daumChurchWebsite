@@ -9,7 +9,11 @@ function Services() {
     <div className="services">
       <About />
       <div className="content">
-        <SubNav title={menuItems[1].title} subMenus={menuItems[1].submenu} />
+        <SubNav
+          title={menuItems[1].title}
+          subMenus={menuItems[1].submenu}
+          current={1}
+        />
         <table>
           <thead>
             <tr>

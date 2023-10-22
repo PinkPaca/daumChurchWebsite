@@ -1,10 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Header/Navbar';
-import SubNav from '../components/SubNav.jsx';
-import { menuItems } from '../menuItems';
 
 function About() {
-  console.log(menuItems[1].submenu);
   return (
     <div className="about">
       <Navbar />

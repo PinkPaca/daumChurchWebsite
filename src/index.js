@@ -8,6 +8,8 @@ import reportWebVitals from './reportWebVitals';
 import ErrorPage from './pages/Error';
 import Greeting from './pages/about/Greeting';
 import Services from './pages/about/Services';
+import History from './pages/about/History';
+import MapToChurch from './pages/about/MapToChurch';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
   {
     path: '/about/services',
     element: <Services />,
+  },
+  {
+    path: '/about/history',
+    element: <History />,
+  },
+  {
+    path: '/about/map',
+    element: <MapToChurch />,
   },
 ]);
 

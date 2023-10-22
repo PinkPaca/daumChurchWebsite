@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function SubNav(props) {
-  const { title, subMenus } = props; // Destructure props
+  const { title, subMenus, current } = props; // Destructure props
 
   return (
     <div className={`sub_nav`}>
@@ -9,7 +9,10 @@ function SubNav(props) {
       <ul>
         {subMenus.map((submenu, index) => {
           return (
-            <li className={`submenu-item`} key={index}>
+            <li
+              className={`submenu-item ${current === index ? 'current' : ''}`}
+              key={index}
+            >
               <a href={submenu.url}>{submenu.title} </a>
             </li>
           );
