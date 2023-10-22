@@ -78,6 +78,10 @@ export const menuItems = [
     url: '/community',
     submenu: [
       {
+        title: '주보',
+        url: '/community/weekly',
+      },
+      {
         title: '함께하기',
         url: '/community/join',
       },

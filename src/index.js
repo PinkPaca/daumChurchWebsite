@@ -10,6 +10,9 @@ import Greeting from './pages/about/Greeting';
 import Services from './pages/about/Services';
 import History from './pages/about/History';
 import MapToChurch from './pages/about/MapToChurch';
+import Weekly from './pages/community/Weekly';
+import Join from './pages/community/Join';
+import Counsel from './pages/community/Counsel';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +35,18 @@ const router = createBrowserRouter([
   {
     path: '/about/map',
     element: <MapToChurch />,
+  },
+  {
+    path: '/community/weekly',
+    element: <Weekly />,
+  },
+  {
+    path: '/community/join',
+    element: <Join />,
+  },
+  {
+    path: '/community/counsel',
+    element: <Counsel />,
   },
 ]);
 
