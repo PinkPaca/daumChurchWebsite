@@ -155,11 +155,72 @@
   align-items: center;
 }
 
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 .banner{
+  .path{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 96px;
+    font-size: 32px;
+    font-weight: bold;
+    width: 100%;
+    height: 350px;
+    color: white;
+    text-shadow: 4px 4px 10px #1a202c;
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    p{
+      font-size: 16px;
+      font-weight: lighter;
+    }
+  }
+
   .ex-img{
     width: 100%;
     height: 350px;
     object-fit: cover;
+  }
+
+  .daumTV-img{
+    width: 100%;
+    height: 350px;
+    object-position: 10% 30%;
+    object-fit: cover;
+  }
+
+  .ministry-img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: 0% 50%;
   }
 
 }

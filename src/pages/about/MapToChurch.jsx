@@ -7,7 +7,7 @@ import Footer from '../../components/Footer';
 function MapToChurch() {
   return (
     <div className="map">
-      <About />
+      <About bannerPath="오시는 길" />
       <div className="content">
         <SubNav
           title={menuItems[1].title}

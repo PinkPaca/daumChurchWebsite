@@ -7,7 +7,7 @@ import Footer from '../../components/Footer';
 function Services() {
   return (
     <div className="services">
-      <About />
+      <About bannerPath="예배안내" />
       <div className="content">
         <SubNav
           title={menuItems[1].title}

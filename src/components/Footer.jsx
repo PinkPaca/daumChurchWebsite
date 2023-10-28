@@ -12,8 +12,8 @@ function Footer() {
         <ShareIcon fontSize="large" />
       </div>
       <div className="contract">
-        <a href="#">개인정보처리방침</a>
-        <a href="#">이용약관</a>
+        <a href="/">개인정보처리방침</a>
+        <a href="/">이용약관</a>
       </div>
       <div className="contact">
         <p>전화번호 032)212-5498</p>

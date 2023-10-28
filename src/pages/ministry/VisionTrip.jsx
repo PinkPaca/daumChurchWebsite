@@ -1,17 +1,19 @@
 import React from 'react';
-import Community from '../Community';
+import Ministry from '../Ministry';
 import SubNav from '../../components/SubNav';
 import { menuItems } from '../../menuItems';
 import Footer from '../../components/Footer';
+import Navbar from '../../components/Header/Navbar';
 
-function Counsel() {
+function VisionTrip() {
   return (
     <div>
-      <Community bannerPath="상담" />
+      <Navbar />
+      <Ministry bannerPath="비전트립" />
       <div className="content">
         <SubNav
-          title={menuItems[4].title}
-          subMenus={menuItems[4].submenu}
+          title={menuItems[3].title}
+          subMenus={menuItems[3].submenu}
           current={2}
         />
       </div>
@@ -20,4 +22,4 @@ function Counsel() {
   );
 }
 
-export default Counsel;
+export default VisionTrip;

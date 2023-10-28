@@ -13,6 +13,17 @@ import MapToChurch from './pages/about/MapToChurch';
 import Weekly from './pages/community/Weekly';
 import Join from './pages/community/Join';
 import Counsel from './pages/community/Counsel';
+import LogIn from './pages/LogIn';
+import Register from './pages/Register';
+import Sermon from './pages/daumTV/Sermon';
+import Worship from './pages/daumTV/Worship';
+import Videos from './pages/daumTV/Videos';
+import Album from './pages/daumTV/Album';
+import News from './pages/daumTV/News';
+import Broadcast from './pages/daumTV/Broadcast';
+import MissionTrip from './pages/ministry/MissionTrip';
+import ChildrenSchool from './pages/ministry/ChildrenSchool';
+import VisionTrip from './pages/ministry/VisionTrip';
 
 const router = createBrowserRouter([
   {
@@ -47,6 +58,50 @@ const router = createBrowserRouter([
   {
     path: '/community/counsel',
     element: <Counsel />,
+  },
+  {
+    path: '/daumTV/sermon',
+    element: <Sermon />,
+  },
+  {
+    path: '/daumTV/worship',
+    element: <Worship />,
+  },
+  {
+    path: '/daumTV/videos',
+    element: <Videos />,
+  },
+  {
+    path: '/daumTV/album',
+    element: <Album />,
+  },
+  {
+    path: '/daumTV/broadcasting',
+    element: <Broadcast />,
+  },
+  {
+    path: '/daumTV/news',
+    element: <News />,
+  },
+  {
+    path: '/ministry/mission-trip',
+    element: <MissionTrip />,
+  },
+  {
+    path: '/ministry/children',
+    element: <ChildrenSchool />,
+  },
+  {
+    path: '/ministry/vision-trip',
+    element: <VisionTrip />,
+  },
+  {
+    path: '/log-in',
+    element: <LogIn />,
+  },
+  {
+    path: '/register',
+    element: <Register />,
   },
 ]);
 

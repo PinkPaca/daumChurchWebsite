@@ -10,7 +10,7 @@ import Footer from '../../components/Footer';
 export default function History() {
   return (
     <div className="history">
-      <About />
+      <About bannerPath="교회연혁" />
       <div className="content">
         <SubNav
           title={menuItems[1].title}

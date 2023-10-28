@@ -1,17 +1,17 @@
 import React from 'react';
-import Community from '../Community';
+import DaumTV from '../DaumTV';
+import Footer from '../../components/Footer';
 import SubNav from '../../components/SubNav';
 import { menuItems } from '../../menuItems';
-import Footer from '../../components/Footer';
 
-function Counsel() {
+function Videos() {
   return (
     <div>
-      <Community bannerPath="상담" />
+      <DaumTV bannerPath="특별영상" />
       <div className="content">
         <SubNav
-          title={menuItems[4].title}
-          subMenus={menuItems[4].submenu}
+          title={menuItems[2].title}
+          subMenus={menuItems[2].submenu}
           current={2}
         />
       </div>
@@ -20,4 +20,4 @@ function Counsel() {
   );
 }
 
-export default Counsel;
+export default Videos;

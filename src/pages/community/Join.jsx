@@ -14,7 +14,7 @@ import Footer from '../../components/Footer';
 function Join() {
   return (
     <div className="join">
-      <Community />
+      <Community bannerPath="함께하기" />
       <div className="content">
         <SubNav
           title={menuItems[4].title}
@@ -83,7 +83,7 @@ function Join() {
                 label="개인정보처리방침에 동의합니다."
                 sx={{ '& .MuiSvgIcon-root': { fontSize: 20 } }}
               />
-              <a href="#">
+              <a href="/">
                 <OpenInNewIcon sx={{ margin: 'auto' }} />
               </a>
             </div>

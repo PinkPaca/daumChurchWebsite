@@ -1,24 +1,25 @@
 import React from 'react';
+import Ministry from '../Ministry';
 import SubNav from '../../components/SubNav';
-import About from '../About';
 import { menuItems } from '../../menuItems';
 import Footer from '../../components/Footer';
+import Navbar from '../../components/Header/Navbar';
 
-function Greeting() {
+function MissionTrip() {
   return (
-    <div className="greeting">
-      <About bannerPath="인삿말" />
+    <div>
+      <Navbar />
+      <Ministry bannerPath="단기선교" />
       <div className="content">
         <SubNav
-          title={menuItems[1].title}
-          subMenus={menuItems[1].submenu}
+          title={menuItems[3].title}
+          subMenus={menuItems[3].submenu}
           current={0}
         />
-        <img src={require('../../assets/greeting_card.png')} alt="인삿말" />
       </div>
       <Footer />
     </div>
   );
 }
 
-export default Greeting;
+export default MissionTrip;

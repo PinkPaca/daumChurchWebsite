@@ -18,14 +18,18 @@ function Navbar() {
       </div>
       <Menus />
       <div className="user-account">
-        <Button variant="outlined" size="small">
-          <LoginIcon className="login-icon" fontSize="small" />
-          로그인
-        </Button>
-        <Button variant="outlined">
-          <HowToRegIcon fontSize="small" />
-          회원가입
-        </Button>
+        <a href="/log-in">
+          <Button variant="outlined" size="small">
+            <LoginIcon className="login-icon" fontSize="small" />
+            로그인
+          </Button>
+        </a>
+        <a href="/register">
+          <Button variant="outlined">
+            <HowToRegIcon fontSize="small" />
+            회원가입
+          </Button>
+        </a>
       </div>
     </div>
   );
